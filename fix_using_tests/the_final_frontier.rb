@@ -11,8 +11,14 @@ end
 
 def engage
   puts state_log(date)
-  binding.pry
+
   date = generate_star_date
 
 
 end
+
+#describe "the_final_frontier" do
+  #it "`engage` should return the captain's log and crew greetings" do
+  #  expect{ engage }.to output(/Captain's Log, star date /).to_stdout
+  #end
+#end
