@@ -10,10 +10,12 @@ def state_log(star_date)
 end
 
 def engage
-  
+
   puts state_log(date)
 
   date = generate_star_date
+  binding.pry
+  puts "yo"
 end
 
 #describe "the_final_frontier" do
