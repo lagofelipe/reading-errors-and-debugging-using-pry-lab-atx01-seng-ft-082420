@@ -2,8 +2,8 @@
 require "pry"
 def snake_it_up(string)
 
-  if string[0] = "s"
-    (10 * s).to_s + string
+  if string[0] =x "s"
+    ssssssssss + string
 
   else
     string
