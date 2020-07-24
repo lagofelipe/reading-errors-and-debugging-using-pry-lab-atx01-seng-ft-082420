@@ -1,11 +1,14 @@
 # don't forget to add: require 'pry'
 require "pry"
 def snake_it_up(string)
-  binding.pry
+
   if string[0] == "s"
-    10.to_s * "s" + string
+    (10 * "s").to_s + string
 
   else
     string
   end
 end
+
+
+# 10 * s + string
