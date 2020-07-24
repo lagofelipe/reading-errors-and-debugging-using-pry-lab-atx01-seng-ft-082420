@@ -11,5 +11,5 @@ def state_log(star_date)
 end
 
 def engage
-  print  "Captain's Log, star date"
+  puts state_log
 end
