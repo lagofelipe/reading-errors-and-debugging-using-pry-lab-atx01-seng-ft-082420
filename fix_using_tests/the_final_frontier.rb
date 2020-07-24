@@ -17,8 +17,8 @@ def engage
 
 def state_log(date)
 
-  date = generate_star_date
-binding.pry
+  #date = generate_star_date
+
 end
 
 #describe "the_final_frontier" do
